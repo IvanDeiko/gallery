@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#displayGallery {
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+#displayGallery > img {
+  border-radius: 5px;
+  margin: 5px;
+}
+
+#galleryTape {
+  padding: 0;
+}
+
+#galleryTape > li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+
+
+#galleryTape > li > a {
+  display: inline-block;
+  padding: 3px;
+  border: 1px solid grey;
+}
+
+#galleryTape > li > a:hover {
+  border-color: orange;
+}
